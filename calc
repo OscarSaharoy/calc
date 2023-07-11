@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-expr="$@"
-python -c "from math import *; print($expr)"
+expression="$@"
+python -c "from math import *; print($expression)"
